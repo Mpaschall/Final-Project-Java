@@ -1,70 +1,81 @@
 import java.util.*;
 public class NFLplayers {
-	public static void main(String[] args){
-	String[] vikings;
-	vikings = new String[62 + 1];
-	vikings[1] = "Joel Stave";
-	vikings[2] = "Shaun Hill";
-	vikings[3] = "Teddy Bridgewater";
-	vikings[4] = "CJ Ham";
-	vikings[5] = "Jerick Mckinnon";
-	vikings[6] = "Jhurrell Pressley";
-	vikings[7] = "Matt Asiata";
-	vikings[8] = "Kevin Monangai";
-	vikings[9] = "Zach Line";
-	vikings[10] = "Adam Thielen";
-	vikings[11] = "Laquen Treadwell";
-	vikings[12] = "David Morgan";
-	vikings[13] = "Mycole Pruitt";
-	vikings[14] = "Kyle Rudolph";
-	vikings[15] = "Cordarrelle Patterson";
-	vikings[16] = "Stefon Diggs";
-	vikings[17] = "Isaac Fruechte";
-	vikings[18] = "Charles Johnson";
-	vikings[19] = "Kyle Carter";
-	vikings[20] = "Blake Renaud";
-	vikings[21] = "Troy Stoudermire";
-	vikings[22] = "Blair Walsh";
-	vikings[23] = "Jeff Locke";
-	vikings[24] = "Marcus Sherels";
-	vikings[25] = "Jabari Price";
-	vikings[27] = "Emmanuel Lamur";
-	vikings[28] = "Mackensie Alexander";
-	vikings[29] = "Audie Cole";
-	vikings[30] = "Kentrell Brothers";
-	vikings[31] = "Jayron Kearse";
-	vikings[32] = "Trae Waynes";
-	vikings[33] = "Shamar Stephen";
-	vikings[34] = "Antone Exum";
-	vikings[35] = "Danielle Hunter";
-	vikings[36] = "Harrison Smith";
-	vikings[37] = "Xavier Rhodes";
-	vikings[38] = "Andrew Sendejo";
-	vikings[39] = "Justin Trattou";
-	vikings[40] = "Travis Raciti";
-	vikings[41] = "Stephen Weatherly";
-	vikings[42] = "Anthony Barr";
-	vikings[43] = "Jake Ganus";
-	vikings[44] = "Tre Roberson";
-	vikings[45] = "Linval Joseph";
-	vikings[46] = "Michael Griffin";
-	vikings[47] = "Edmond Robinson";
-	vikings[48] = "Toby Johnson";
-	vikings[49] = "Terence Newman";
-	vikings[50] = "Everson Griffen";
-	vikings[51] = "Tom Johnson";
-	vikings[52] = "Zach Moore";
-	vikings[53] = "Kevin Mcdermott";
-	vikings[54] = "Carter Bykowski";
-	vikings[55] = "Marcus Sherels";
-	vikings[56] = "Brian Robison";
-	vikings[57] = "Kenrick Ellis";
-	vikings[58] = "Marken Michel";
-	vikings[59] = "Denzell Perine";
-	vikings[60] = "Chad Greenway";
-	vikings[61] = "Terrence Plummer";
-	vikings[62] = "Kyle Carter";
-
+	public class vikings {
+	private String num1 = "Joel Stave";
+	private String num2 = "Shaun Hill";
+	private List<String> list;
+	public vikings(){
+		list = new ArrayList<String>();
+		list.add("Joel Stave");
+		list.add("Shaun Hill");
+		list.add("Teddy Bridgewater");
+		list.add("CJ Ham");
+		list.add("Jerick Mckinnon");
+		list.add("Jhurrell Pressley");
+		list.add("Matt Asiata");
+		list.add("Kevin Monangai");
+		list.add("Zach Line");
+		list.add("Adam Thielen");
+		list.add("Laquen Treadwell");
+		list.add("David Morgan");
+		list.add("Mycole Pruitt");
+		list.add("Kyle Rudolph");
+		list.add("Cordarrelle Patterson");
+		list.add("Stefon Diggs");
+		list.add("Isaac Fruechte");
+		list.add("Charles Johnson");
+		list.add("Kyle Carter");
+		list.add("Blake Renaud");
+		list.add("Troy Stoudermire");
+		list.add("Blair Walsh");
+		list.add("Jeff Locke");
+		list.add("Marcus Sherels");
+		list.add("Jabari Price");
+		list.add("Emmanuel Lamur");
+		list.add("Mackensie Alexander");
+		list.add("Audie Cole");
+		list.add("Kentrell Brothers");
+		list.add("Jayron Kearse");
+		list.add("Trae Waynes");
+		list.add("Shamar Stephen");
+		list.add("Antone Exum");
+		list.add("Danielle Hunter");
+		list.add("Harrison Smith");
+		list.add("Xavier Rhodes");
+		list.add("Andrew Sendejo");
+		list.add("Justin Trattou");
+		list.add("Travis Raciti");
+		list.add("Stephen Weatherly");
+		list.add("Anthony Barr");
+		list.add("Jake Ganus");
+		list.add("Tre Roberson");
+		list.add("Linval Joseph");
+		list.add("Michael Griffin");
+		list.add("Edmond Robinson");
+		list.add("Toby Johnson");
+		list.add("Terence Newman");
+		list.add("Everson Griffen");
+		list.add("Tom Johnson");
+		list.add("Zach Moore");
+		list.add("Kevin Mcdermott");
+		list.add("Carter Bykowski");
+		list.add("Marcus Sherels");
+		list.add("Brian Robison");
+		list.add("Kenrick Ellis");
+		list.add("Marken Michel");
+		list.add("Denzell Perine");
+		list.add("Chad Greenway");
+		list.add("Terrence Plummer");
+		list.add("Kyle Carter");
+	}
+	public List<String> getList(){
+		return list;
+	}
 	
 	}
-}
+	
+	
+		
+	}
+
+	
