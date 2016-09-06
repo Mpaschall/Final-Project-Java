@@ -1,8 +1,6 @@
 import java.util.*;
 public class NFLplayers {
 	public class vikings {
-	private String num1 = "Joel Stave";
-	private String num2 = "Shaun Hill";
 	private List<String> list;
 	public vikings(){
 		list = new ArrayList<String>();
@@ -71,7 +69,23 @@ public class NFLplayers {
 	public List<String> getList(){
 		return list;
 	}
-	
+	public void setStat(int pass, int recieve, int intercept, int yards, int touchdown){
+		pass = list<"">;
+		recieve = list<"">;
+		intercept = list<"">;
+		yards = list<"">;
+		touchdown = list<"">;
+		return setStat;
+	}
+	public int getStat(int pass, int recieve, int intercept, int yards, int touchdown){
+		pass = list<"">;
+		recieve = list<"">;
+		intercept = list<"">;
+		yards = list<"">;
+		touchdown = list<"">;
+		return getStat;
+		
+	}
 	}
 	
 	
