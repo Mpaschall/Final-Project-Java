@@ -1,95 +1,82 @@
 import java.util.*;
 public class NFLplayers {
-	public class vikings {
-	private List<String> list;
-	public vikings(){
-		list = new ArrayList<String>();
-		list.add("Joel Stave");
-		list.add("Shaun Hill");
-		list.add("Teddy Bridgewater");
-		list.add("CJ Ham");
-		list.add("Jerick Mckinnon");
-		list.add("Jhurrell Pressley");
-		list.add("Matt Asiata");
-		list.add("Kevin Monangai");
-		list.add("Zach Line");
-		list.add("Adam Thielen");
-		list.add("Laquen Treadwell");
-		list.add("David Morgan");
-		list.add("Mycole Pruitt");
-		list.add("Kyle Rudolph");
-		list.add("Cordarrelle Patterson");
-		list.add("Stefon Diggs");
-		list.add("Isaac Fruechte");
-		list.add("Charles Johnson");
-		list.add("Kyle Carter");
-		list.add("Blake Renaud");
-		list.add("Troy Stoudermire");
-		list.add("Blair Walsh");
-		list.add("Jeff Locke");
-		list.add("Marcus Sherels");
-		list.add("Jabari Price");
-		list.add("Emmanuel Lamur");
-		list.add("Mackensie Alexander");
-		list.add("Audie Cole");
-		list.add("Kentrell Brothers");
-		list.add("Jayron Kearse");
-		list.add("Trae Waynes");
-		list.add("Shamar Stephen");
-		list.add("Antone Exum");
-		list.add("Danielle Hunter");
-		list.add("Harrison Smith");
-		list.add("Xavier Rhodes");
-		list.add("Andrew Sendejo");
-		list.add("Justin Trattou");
-		list.add("Travis Raciti");
-		list.add("Stephen Weatherly");
-		list.add("Anthony Barr");
-		list.add("Jake Ganus");
-		list.add("Tre Roberson");
-		list.add("Linval Joseph");
-		list.add("Michael Griffin");
-		list.add("Edmond Robinson");
-		list.add("Toby Johnson");
-		list.add("Terence Newman");
-		list.add("Everson Griffen");
-		list.add("Tom Johnson");
-		list.add("Zach Moore");
-		list.add("Kevin Mcdermott");
-		list.add("Carter Bykowski");
-		list.add("Marcus Sherels");
-		list.add("Brian Robison");
-		list.add("Kenrick Ellis");
-		list.add("Marken Michel");
-		list.add("Denzell Perine");
-		list.add("Chad Greenway");
-		list.add("Terrence Plummer");
-		list.add("Kyle Carter");
+	private static List<String> vikings;
+	public static void NFLteam(){
+		vikings = new ArrayList<String>();
+		vikings.add("Joel Stave");
+		vikings.add("Shaun Hill");
+		vikings.add("Teddy Bridgewater");
+		vikings.add("CJ Ham");
+		vikings.add("Jerick Mckinnon");
+		vikings.add("Jhurrell Pressley");
+		vikings.add("Matt Asiata");
+		vikings.add("Kevin Monangai");
+		vikings.add("Zach Line");
+		vikings.add("Adam Thielen");
+		vikings.add("Laquen Treadwell");
+		vikings.add("David Morgan");
+		vikings.add("Mycole Pruitt");
+		vikings.add("Kyle Rudolph");
+		vikings.add("Cordarrelle Patterson");
+		vikings.add("Stefon Diggs");
+		vikings.add("Isaac Fruechte");
+		vikings.add("Charles Johnson");
+		vikings.add("Kyle Carter");
+		vikings.add("Blake Renaud");
+		vikings.add("Troy Stoudermire");
+		vikings.add("Blair Walsh");
+		vikings.add("Jeff Locke");
+		vikings.add("Marcus Sherels");
+		vikings.add("Jabari Price");
+		vikings.add("Emmanuel Lamur");
+		vikings.add("Mackensie Alexander");
+		vikings.add("Audie Cole");
+		vikings.add("Kentrell Brothers");
+		vikings.add("Jayron Kearse");
+		vikings.add("Trae Waynes");
+		vikings.add("Shamar Stephen");
+		vikings.add("Antone Exum");
+		vikings.add("Danielle Hunter");
+		vikings.add("Harrison Smith");
+		vikings.add("Xavier Rhodes");
+		vikings.add("Andrew Sendejo");
+		vikings.add("Justin Trattou");
+		vikings.add("Travis Raciti");
+		vikings.add("Stephen Weatherly");
+		vikings.add("Anthony Barr");
+		vikings.add("Jake Ganus");
+		vikings.add("Tre Roberson");
+		vikings.add("Linval Joseph");
+		vikings.add("Michael Griffin");
+		vikings.add("Edmond Robinson");
+		vikings.add("Toby Johnson");
+		vikings.add("Terence Newman");
+		vikings.add("Everson Griffen");
+		vikings.add("Tom Johnson");
+		vikings.add("Zach Moore");
+		vikings.add("Kevin Mcdermott");
+		vikings.add("Carter Bykowski");
+		vikings.add("Marcus Sherels");
+		vikings.add("Brian Robison");
+		vikings.add("Kenrick Ellis");
+		vikings.add("Marken Michel");
+		vikings.add("Denzell Perine");
+		vikings.add("Chad Greenway");
+		vikings.add("Terrence Plummer");
+		vikings.add("Kyle Carter");
 	}
-	public List<String> getList(){
-		return list;
+	public static void main(String[] args){
+		System.out.println(vikings);
 	}
-	public void setStat(int pass, int recieve, int intercept, int yards, int touchdown){
-		pass = list<"">;
-		recieve = list<"">;
-		intercept = list<"">;
-		yards = list<"">;
-		touchdown = list<"">;
-		return setStat;
-	}
-	public int getStat(int pass, int recieve, int intercept, int yards, int touchdown){
-		pass = list<"">;
-		recieve = list<"">;
-		intercept = list<"">;
-		yards = list<"">;
-		touchdown = list<"">;
-		return getStat;
-		
+	public static List<String> getVikings(){
+		return vikings;
 	}
 	}
 	
 	
+	
+	
 		
-	}
+	
 
 	
