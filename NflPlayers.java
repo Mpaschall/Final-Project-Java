@@ -1,12 +1,13 @@
 import java.util.*;
 public class NflPlayers {
+	public String draftPlayer;
 	public String pName;
 	public String num;
 	public String status;
 	public String position;
 	public String stats;
 	public String side;
-
+	public static ArrayList<String> pLineup = new ArrayList();
     public static ArrayList<String> vikings = new ArrayList();
     
     public NflPlayers(String pName, String num, String status, String position, String stats, String side){
@@ -16,6 +17,17 @@ public class NflPlayers {
        vikings.add(status);
        vikings.add(position);
        vikings.add(stats);
+       if(pName.equals(draftPlayer)){
+    	   pLineup.add(pName);
+    	   pLineup.add(num);
+    	   pLineup.add(status);
+    	   pLineup.add(position);
+    	   pLineup.add(stats);
+    	   pLineup.add(side);
+    	   System.out.println("Your new lineup is");
+    	   System.out.println(pLineup);
+       }
+       else
        System.out.println(vikings);
 }
     public void celebrate(){
